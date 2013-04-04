@@ -1,8 +1,6 @@
 import skein
 from gmpy import hamdist as hamming
 import binascii
-import http.client as httplib
-import urllib.parse as urllib
 import os
 
 urandom = open("/dev/urandom", "rb")
